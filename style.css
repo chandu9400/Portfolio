@@ -14,7 +14,7 @@ body {
     
 }
 #header{
-
+    max-width: 100%;
     background-color: #0071c5;
     height:350px;
     margin-bottom: 5px;
