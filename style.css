@@ -7,19 +7,18 @@ body {
 }
 
 .container{
-    position: relative;
+    margin-top: 300px;
     text-align: center;
     color: white;
     width: 100%;
-}
-
-.container > img{
     
-        -webkit-transform: scaleX(-1);
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        transform: scaleX(-1);
-      
+}
+#header{
+
+    background-color: #0071c5;
+    height:350px;
+    margin-bottom: 5px;
+
 }
 
 
@@ -28,11 +27,12 @@ body {
     position: absolute;
     display: flex;
     top: 70px;
-    left: 20%;
+    left: 25%;
     font-size:xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 800;
+    font-weight:bolder;
     margin-right: 30px;
+    color:white;
 }
 .profile-img{
     display: flex;
@@ -51,7 +51,7 @@ body {
     margin: 0 auto;
     margin-top: 5px;
     top: 90px;
-    left: 280px;
+    left: 315px;
     width: fit-content;
 }
 #skills{
@@ -122,6 +122,7 @@ body {
 
 #footer{
     background-color: white;
+    
 }
 
 #education{
@@ -138,7 +139,7 @@ body {
     margin-bottom: 25px;
 }
 .education-block {
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;
@@ -164,10 +165,10 @@ align-items: center;
         position: absolute;
         display: flex;
         top: 70px;
-        left: 250px;
+        left: 300px;
         font-size:xx-large;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: 800;
+        font-weight:bolder;
         margin-right: 30px;
     }
     .profile-img{
@@ -180,6 +181,7 @@ align-items: center;
        
         border-radius: 50%;
     }
+    
 #footer{
     max-width:100%;
 }
@@ -196,9 +198,9 @@ align-items: center;
     position: absolute;
     margin: 0 auto;
     margin-top: 5px;
-    top: 130px;
-    left: 280px;
-    width: fit-content;
+    top: 100px;
+    left: 300px;
+    width:max-content;
 }
 
 }
@@ -223,23 +225,62 @@ align-items: center;
         position: absolute;
         display: flex;
         top: 70px;
-        left: 50%;
-        font-size:x-large;
+        left: 35%;
+        font-size:xx-large;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: 800;
-        margin-right: 30px;
+        font-weight: bolder;
+        
+       
     }
 
     .btn{
         display: flex;
         position: absolute;
         margin: 0 auto;
+        
         margin-top: 5px;
-        top: 115px;
-        left: 55%;
-        width:min-content;
-        height:min-content;
+        top: 100px;
+        left: 35%;
+        width:max-content;
+        height:100;
+    }
+    
+    .education-block {
+        max-width: 550px;
+        margin: 0 auto 30px auto;
+        padding: 15px;
+        border: 1px solid #dcd9d9;
+        text-align: left;
+
+
+}
+}
+
+@media (max-width: 550px) {
+
+
+    .btn{
+        display: flex;
+        position: absolute;
+        margin: 0 auto;
+        
+        margin-top: 10px;
+        top: 120px;
+        left: 50%;
+        width:120px;
+        height:80;
     }
 
-
+    .text{
+        position: absolute;
+        display: flex;
+        top: 60px;
+        left: 50%;
+        font-size:xx-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:bold;
+        margin-right: 30px;
+        color:white;
+    }
+    
 }
